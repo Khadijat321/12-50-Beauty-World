@@ -1,5 +1,4 @@
- <script>
-        // Loading Screen
+// Loading Screen
         window.addEventListener('load', () => {
             setTimeout(() => {
                 document.getElementById('loader').classList.add('hidden');
@@ -104,4 +103,3 @@
                 }
             });
         });
-    </script>
