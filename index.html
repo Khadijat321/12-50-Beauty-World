@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>12:50 Beauty World — Premium Beauty Supply Store | Ojo, Lagos</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div class="loader" id="loader">
+        <div class="loader-text">12:50 Beauty World</div>
+    </div>
+
+    <!-- Navigation -->
+    <nav id="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo">
+                <i class="fas fa-crown" style="color: var(--gold);"></i>
+                12:50 <span>Beauty World</span>
+            </a>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#reviews">Reviews</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <button class="mobile-menu-btn" id="mobileMenuBtn">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-container">
+            <div class="hero-content fade-in">
+                <div class="hero-subtitle">Premium Beauty Supply Store</div>
+                <h1>Your Beauty,<br><span>Our Passion</span></h1>
+                <p class="hero-desc">
+                    Located in the heart of Ojo, Lagos, 12:50 Beauty World is your trusted destination for premium hair products, cosmetics, wigs, and beauty essentials. We bring world-class beauty right to your neighborhood.
+                </p>
+                <div class="hero-badges">
+                    <span class="badge"><i class="fas fa-star"></i> 5.0 Rating</span>
+                    <span class="badge"><i class="fas fa-truck"></i> Delivery Available</span>
+                    <span class="badge"><i class="fas fa-clock"></i> Open Today</span>
+                </div>
+                <div class="hero-buttons">
+                    <a href="#products" class="btn btn-primary">
+                        <i class="fas fa-shopping-bag"></i> Explore Products
+                    </a>
+                    <a href="#contact" class="btn btn-outline">
+                        <i class="fas fa-map-marker-alt"></i> Find Us
+                    </a>
+                </div>
+            </div>
+            <div class="hero-image fade-in">
+                <img src="https://images.unsplash.com/photo-1596462502278-27bfdc403348?w=800&h=600&fit=crop" alt="12:50 Beauty World Store">
+                <div class="floating-card rating">
+                    <i class="fas fa-star" style="color: #FFB800;"></i>
+                    <div>
+                        <strong>5.0</strong>
+                        <small style="display: block; color: var(--gray);">Google Rating</small>
+                    </div>
+                </div>
+                <div class="floating-card hours">
+                    <i class="fas fa-clock" style="color: var(--gold);"></i>
+                    <div>
+                        <strong>Open Now</strong>
+                        <small style="display: block; color: var(--gray);">Closes 6:30 PM</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Info Bar -->
+    <div class="info-bar">
+        <div class="info-bar-container">
+            <div class="info-item">
+                <i class="fas fa-map-marker-alt"></i>
+                <span>F5FP+R7H, Lagos - Badagry Expy, Ojo, Lagos 102101</span>
+            </div>
+            <div class="info-item">
+                <i class="fas fa-phone"></i>
+                <a href="tel:+2349058852137">0905 885 2137</a>
+            </div>
+            <div class="info-item">
+                <i class="fas fa-clock"></i>
+                <span>Open · Closes 6:30 PM</span>
+            </div>
+            <div class="info-item">
+                <i class="fas fa-truck"></i>
+                <span>Delivery Available</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Products Section -->
+    <section class="products" id="products">
+        <div class="section-header fade-in">
+            <h2>Our Collections</h2>
+            <div class="gold-line"></div>
+            <p>Discover our carefully curated selection of premium beauty products sourced from top brands worldwide</p>
+        </div>
+        <div class="products-grid">
+            <div class="product-card fade-in">
+                <div class="product-image">
+                    <i class="fas fa-user-tie"></i>
+                </div>
+                <div class="product-info">
+                    <h3>Hair Extensions & Wigs</h3>
+                    <p>Premium human hair, synthetic wigs, braids, and weaves in various textures and lengths.</p>
+                    <div class="product-tags">
+                        <span class="tag">Human Hair</span>
+                        <span class="tag">Braids</span>
+                        <span class="tag">Frontals</span>
+                    </div>
+                </div>
+            </div>
+            <div class="product-card fade-in">
+                <div class="product-image">
+                    <i class="fas fa-pump-soap"></i>
+                </div>
+                <div class="product-info">
+                    <h3>Hair Care Products</h3>
+                    <p>Shampoos, conditioners, hair oils, relaxers, and treatments for all hair types.</p>
+                    <div class="product-tags">
+                        <span class="tag">Shampoo</span>
+                        <span class="tag">Oils</span>
+                        <span class="tag">Treatments</span>
+                    </div>
+                </div>
+            </div>
+            <div class="product-card fade-in">
+                <div class="product-image">
+                    <i class="fas fa-paint-brush"></i>
+                </div>
+                <div class="product-info">
+                    <h3>Makeup & Cosmetics</h3>
+                    <p>Foundations, lipsticks, eyeshadows, and professional makeup tools and accessories.</p>
+                    <div class="product-tags">
+                        <span class="tag">Foundation</span>
+                        <span class="tag">Lipstick</span>
+                        <span class="tag">Tools</span>
+                    </div>
+                </div>
+            </div>
+            <div class="product-card fade-in">
+                <div class="product-image">
+                    <i class="fas fa-spa"></i>
+                </div>
+                <div class="product-info">
+                    <h3>Skincare Essentials</h3>
+                    <p>Moisturizers, serums, cleansers, and body care products for radiant skin.</p>
+                    <div class="product-tags">
+                        <span class="tag">Moisturizer</span>
+                        <span class="tag">Serum</span>
+                        <span class="tag">Cleanser</span>
+                    </div>
+                </div>
+            </div>
+            <div class="product-card fade-in">
+                <div class="product-image">
+                    <i class="fas fa-spray-can"></i>
+                </div>
+                <div class="product-info">
+                    <h3>Fragrances & Perfumes</h3>
+                    <p>Designer and niche fragrances for men and women. Long-lasting scents for every occasion.</p>
+                    <div class="product-tags">
+                        <span class="tag">Designer</span>
+                        <span class="tag">Niche</span>
+                        <span class="tag">Body Spray</span>
+                    </div>
+                </div>
+            </div>
+            <div class="product-card fade-in">
+                <div class="product-image">
+                    <i class="fas fa-hand-sparkles"></i>
+                </div>
+                <div class="product-info">
+                    <h3>Nail Care & Accessories</h3>
+                    <p>Nail polishes, acrylics, nail art supplies, and beauty accessories to complete your look.</p>
+                    <div class="product-tags">
+                        <span class="tag">Polish</span>
+                        <span class="tag">Acrylics</span>
+                        <span class="tag">Tools</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="gallery" id="gallery">
+        <div class="section-header fade-in">
+            <h2>Inside Our Store</h2>
+            <div class="gold-line"></div>
+            <p>Take a peek at our beautifully organized shelves and welcoming atmosphere</p>
+        </div>
+        <div class="gallery-grid">
+            <div class="gallery-item large fade-in">
+                <img src="https://images.unsplash.com/photo-1560066984-138dadb4c035?w=800&h=800&fit=crop" alt="Beauty Store Interior">
+                <div class="gallery-overlay">
+                    <span>Premium Product Display</span>
+                </div>
+            </div>
+            <div class="gallery-item fade-in">
+                <img src="https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?w=400&h=400&fit=crop" alt="Hair Products">
+                <div class="gallery-overlay">
+                    <span>Hair Care Section</span>
+                </div>
+            </div>
+            <div class="gallery-item fade-in">
+                <img src="https://images.unsplash.com/photo-1512496015851-a90fb38ba796?w=400&h=400&fit=crop" alt="Cosmetics">
+                <div class="gallery-overlay">
+                    <span>Cosmetics Display</span>
+                </div>
+            </div>
+            <div class="gallery-item wide fade-in">
+                <img src="https://images.unsplash.com/photo-1596704017254-9b121068fb31?w=800&h=400&fit=crop" alt="Wig Display">
+                <div class="gallery-overlay">
+                    <span>Wig & Extension Collection</span>
+                </div>
+            </div>
+            <div class="gallery-item fade-in">
+                <img src="https://images.unsplash.com/photo-1571781926291-c477ebfd024b?w=400&h=400&fit=crop" alt="Skincare">
+                <div class="gallery-overlay">
+                    <span>Skincare Products</span>
+                </div>
+            </div>
+            <div class="gallery-item fade-in">
+                <img src="https://images.unsplash.com/photo-1620916566398-39f1143ab7be?w=400&h=400&fit=crop" alt="Store Front">
+                <div class="gallery-overlay">
+                    <span>Store Front</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="about-container">
+            <div class="about-content fade-in">
+                <h2>About <span>12:50 Beauty World</span></h2>
+                <p>
+                    Nestled along the bustling Lagos-Badagry Expressway in Ojo, 12:50 Beauty World has established itself as a trusted name in the beauty supply industry. We understand that beauty is personal, and every customer deserves access to quality products that enhance their natural glow.
+                </p>
+                <p>
+                    Our store is stocked with an extensive range of hair extensions, wigs, skincare products, cosmetics, and fragrances from both local Nigerian brands and international labels. Whether you're looking for protective styling options, everyday makeup essentials, or premium hair treatments, our knowledgeable staff is here to guide you.
+                </p>
+                <p>
+                    We pride ourselves on authenticity, affordability, and exceptional customer service. With delivery options available, we bring beauty convenience right to your doorstep.
+                </p>
+                <div class="stats">
+                    <div class="stat-item">
+                        <h3>1000+</h3>
+                        <p>Products Available</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3>5.0</h3>
+                        <p>Customer Rating</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3>6:30PM</h3>
+                        <p>Closing Time Daily</p>
+                    </div>
+                </div>
+            </div>
+            <div class="about-image fade-in">
+                <img src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=600&h=700&fit=crop" alt="About 12:50 Beauty World">
+            </div>
+        </div>
+    </section>
+
+    <!-- Reviews Section -->
+    <section class="reviews" id="reviews">
+        <div class="section-header fade-in">
+            <h2>Customer Reviews</h2>
+            <div class="gold-line"></div>
+            <p>See what our customers are saying about their experience at 12:50 Beauty World</p>
+        </div>
+        <div class="reviews-grid">
+            <div class="review-card fade-in">
+                <div class="review-header">
+                    <span class="reviewer-name">Amaka O.</span>
+                    <span class="review-date">2 weeks ago</span>
+                </div>
+                <div class="review-stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <p class="review-text">
+                    "Best beauty store in Ojo! I found exactly the human hair wig I was looking for. The staff was so helpful and the prices are very reasonable compared to other stores. Will definitely be coming back!"
+                </p>
+            </div>
+            <div class="review-card fade-in">
+                <div class="review-header">
+                    <span class="reviewer-name">Blessing K.</span>
+                    <span class="review-date">1 month ago</span>
+                </div>
+                <div class="review-stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <p class="review-text">
+                    "I love that they have delivery service! Ordered some skincare products and they arrived the same day. Everything was original and well-packaged. 12:50 Beauty World is now my go-to store."
+                </p>
+            </div>
+            <div class="review-card fade-in">
+                <div class="review-header">
+                    <span class="reviewer-name">Chioma M.</span>
+                    <span class="review-date">2 months ago</span>
+                </div>
+                <div class="review-stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <p class="review-text">
+                    "The variety of hair products here is amazing. From natural hair care to braids and weaves, they have it all. The store is well-organized and the attendants know their products very well."
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="contact-container">
+            <div class="contact-info fade-in">
+                <h2>Visit Us Today</h2>
+                <p>We'd love to see you! Stop by our store or reach out to us for inquiries and delivery orders.</p>
+                
+                <div class="contact-details">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-text">
+                            <h4>Address</h4>
+                            <p>F5FP+R7H, Lagos - Badagry Expy,<br>Ojo, Lagos 102101, Nigeria</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact-text">
+                            <h4>Phone</h4>
+                            <a href="tel:+2349058852137">0905 885 2137</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <div class="contact-text">
+                            <h4>Opening Hours</h4>
+                            <p>Monday - Saturday: 9:00 AM - 6:30 PM<br>Sunday: Closed</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-truck"></i>
+                        </div>
+                        <div class="contact-text">
+                            <h4>Delivery</h4>
+                            <p>Available across Lagos and nearby areas. Call us to place your order!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="map-container fade-in">
+                <div class="map-placeholder">
+                    <i class="fas fa-map-marked-alt"></i>
+                    <h3>Find Us on Google Maps</h3>
+                    <p>F5FP+R7H, Lagos - Badagry Expy, Ojo</p>
+                    <a href="https://www.google.com/maps/search/?api=1&query=F5FP%2BR7H+Lagos-Badagry+Expy+Ojo+Lagos" target="_blank" class="map-link">
+                        <i class="fas fa-external-link-alt"></i> Open in Google Maps
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-container">
+            <div class="footer-brand">
+                <h3>12:50 <span>Beauty World</span></h3>
+                <p>Your trusted beauty supply destination in Ojo, Lagos. Quality products, authentic brands, and exceptional service.</p>
+                <div class="social-links">
+                    <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="#" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                    <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+            <div class="footer-links">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#products">Products</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#about">About</a></li>
+                </ul>
+            </div>
+            <div class="footer-links">
+                <h4>Products</h4>
+                <ul>
+                    <li><a href="#products">Hair Extensions</a></li>
+                    <li><a href="#products">Wigs & Braids</a></li>
+                    <li><a href="#products">Skincare</a></li>
+                    <li><a href="#products">Cosmetics</a></li>
+                </ul>
+            </div>
+            <div class="footer-links">
+                <h4>Support</h4>
+                <ul>
+                    <li><a href="#contact">Contact Us</a></li>
+                    <li><a href="#contact">Delivery Info</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms of Service</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 12:50 Beauty World. All rights reserved. | Ojo, Lagos, Nigeria</p>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top Button -->
+    <button class="scroll-top" id="scrollTop" aria-label="Scroll to top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+  <script src="app.js"></script>
+</body>
+</html>
